@@ -13,10 +13,11 @@
   <body>
   @auth
   <div class="m-3">
-    <p >you are logged <button>Log out</button></p>
+    <p >you are logged </p>
+    
     <form action="/logout" method="post">
     @csrf
-    
+    <button type="submit">Log out</button>
     </form> 
   </div>
   <div>
